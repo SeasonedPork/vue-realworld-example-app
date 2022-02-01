@@ -3,8 +3,8 @@ name: deploy vue
 on:
   push:
     branches:
-      - master
-    
+      - prod
+
 
 jobs:
   deploy-app:
